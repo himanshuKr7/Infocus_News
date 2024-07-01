@@ -75,9 +75,12 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-##Screenshots
+## Screenshots
 
 ![image](https://github.com/himanshuKr7/Infocus_News/assets/132695128/5d37345a-524f-4014-a2ff-709ea2cb3c91)
+
+![image](https://github.com/himanshuKr7/Infocus_News/assets/132695128/0a8be38e-3542-4d3d-9102-8a8987cb4075)
+
 
 
 ## License
