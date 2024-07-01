@@ -1,16 +1,5 @@
 # InFocus News 
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Getting Started](#getting-started)
-5. [API Integration](#api-integration)
-6. [File Structure](#file-structure)
-7. [Usage](#usage)
-8. [Contributing](#contributing)
-9. [License](#license)
-
 ## Introduction
 **InFocus News** is a responsive web application that provides the latest news updates. The news is fetched dynamically from the Open News API, ensuring that users receive the most current information.
 
@@ -59,10 +48,8 @@ const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}
 ## File Structure
 ```
 infocus-news/
-├── css/
-│   └── styles.css
-├── js/
-│   └── scripts.js
+├── style.css
+├── script.js
 ├── index.html
 ├── README.md
 ```
