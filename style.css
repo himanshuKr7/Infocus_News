@@ -80,9 +80,9 @@ ul li:active {
     color: crimson;
 }
 
-.nav-hover-links.active {
+/* .nav-hover-links.active {
     color: #811bc5;
-}
+} */
 
 .input-box {
     padding: 8px 20px;
@@ -177,14 +177,18 @@ main {
         margin-top: 10px;
     }
     .card-container {
+        max-width: 100%;
         justify-content: center;
     }
 
     .card {
         width: 100%;
-        max-width: none;
+        max-width: 100%;
     }
-
+    .container {
+            max-width: 100%;
+            margin-inline: none;
+        }
     main {
         margin-top:300px;
     }
@@ -195,12 +199,13 @@ main {
         font-size: 1em;
     }
     .container{
-        width: 100%;
-        margin-inline: 0;
+        max-width: 100%;
+        margin-inline: none;
     }
      .card-container
      {
-        margin-inline: 0;
+        max-width: 100%;
+        margin-inline: none;
      }
     .input-box {
         width: 100%;
