@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Infocus_News</title>
+		<link rel="stylesheet" crossorigin href="/assets/index-DgFULEcm.css">
+	</head>
+	<body>
+		<nav>
+			<div class="main_nav container flex">
+				<a href="#" onclick="reload()">
+					<img src="/assets/logo-ePoqpu5G.png" alt="logo" class="companylogo" />
+				</a>
+				<div class="nav-links">
+					<ul class="flex">
+						<a href=""
+							><li
+								class="nav-hover-links"
+								id="ipl"
+								onclick="onNavItemClick('IPL')">
+								IPL
+							</li></a
+						>
+						<a href=""
+							><li
+								class="nav-hover-links"
+								id="politics"
+								onclick="onNavItemClick('Politics')">
+								Politics
+							</li></a
+						>
+						<a href=""
+							><li
+								class="nav-hover-links"
+								id="technology"
+								onclick="onNavItemClick('Technology')">
+								Technology
+							</li></a
+						>
+					</ul>
+				</div>
+				<div class="search-section">
+					<input type="text" placeholder="eg:Movies" class="input-box" />
+					<button class="search-btn">Search</button>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div class="card-container container flex" id="card-container"></div>
+		</main>
+
+		<template id="template-news-card">
+			<div class="card">
+				<div class="card_header">
+					<img
+						src="https://via.placeholder.com/400x200"
+						alt="news-image"
+						id="news-img" />
+				</div>
+				<div class="card-content">
+					<h2 id="news-title">heading</h2>
+					<h4 class="news_source" id="news-source">20/04/2003</h4>
+					<p class="news_source" id="news-desc">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+						quo ut temporibus qui ex quia expedita facere nostrum maxime
+						excepturi.
+					</p>
+				</div>
+			</div>
+		</template>
+		<script src="script.js"></script>
+	</body>
+</html>
